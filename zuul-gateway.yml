@@ -3,12 +3,12 @@ spring:
     store-type: redis
   redis:
     port: 6379
-zuul: 
-  retryable: true
-  routes:
-    order-management-ms:
-      path: /order-management/**
-      sensitiveHeaders: Authorization, Set-Cookie
+#zuul: 
+#  retryable: true
+#  routes:
+#    order-management-ms:
+#      path: /order-management/**
+#      sensitiveHeaders: Authorization, Set-Cookie
 security:
   user:
     name: gateway
