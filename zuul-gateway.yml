@@ -7,7 +7,7 @@ zuul:
   retryable: true
   routes:
     order-management-ms:
-      path: /orders/**
+      path: /order-management-ms/**
       sensitiveHeaders: Authorization, Set-Cookie
 security:
   user:
