@@ -9,8 +9,8 @@ spring:
 #    order-management-ms:
 #      path: /order-management/**
 #      sensitiveHeaders: Authorization, Set-Cookie
-security:
-  user:
-    name: gateway
-    password: password
+#security:
+#  user:
+#    name: gateway
+#    password: password
 
